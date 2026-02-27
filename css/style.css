@@ -564,6 +564,8 @@ body {
     margin-bottom: 20px;
     text-transform: uppercase;
     word-spacing: 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+
 }
 
 .couple-names {
@@ -577,7 +579,7 @@ body {
 
 .name {
     font-family: var(--font-heading);
-    font-size: 30px;
+    font-size: 40px;
     color: var(--deep-purple);
     line-height: 1;
     text-shadow: 2px 2px 4px rgba(94, 58, 107, 0.1);
@@ -1013,7 +1015,11 @@ body {
     left: 0%;
     width: 100%;
 }
-
+.name-deg{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 0 0 0;
+    font-size: 15px !important;
+}
 /* ===== MOBILE RESPONSIVE DESIGN ===== */
 
 /* Tablet Styles */
