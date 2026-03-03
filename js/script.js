@@ -123,7 +123,7 @@ $(document).ready(function () {
     // COUNTDOWN TIMER
     // ============================================
     function updateCountdown() {
-        const weddingDate = new Date('June 17, 2026 17:30:00').getTime();
+        const weddingDate = new Date('June 17, 2026 06:00:00').getTime();
         const now = new Date().getTime();
         const distance = weddingDate - now;
 
