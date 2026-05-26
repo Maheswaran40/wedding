@@ -276,3 +276,16 @@ $(document).ready(function () {
         });
     }
 });
+
+function topOpen() {
+    let door1 = document.getElementsByClassName("door1")[0]
+    let door2 = document.getElementsByClassName("door2")[0]
+    document.getElementsByClassName("door-button")[0].style.display="none"
+    door1.style.animation = "door1 2s linear 1"
+    door2.style.animation = "door2 2s linear 1"
+    document.getElementsByClassName("body")[0].style.display="flex"
+   setTimeout(() => {
+     door1.style.display="none"
+    door2.style.display="none"
+   }, 2000);
+}
